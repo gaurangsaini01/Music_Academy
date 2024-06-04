@@ -19,7 +19,7 @@ const HeroSection = () => {
         </p>
         <div className="m-6">
           <Link href={"/courses"}>
-            <Button className="bg-black/[0.9]">
+            <Button className="bg-black/[0.9] hover:scale-95 transition-all duration-200 ease-out">
               Explore Courses
             </Button>
           </Link>

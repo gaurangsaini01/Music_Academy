@@ -50,7 +50,7 @@ const FeaturedCourses = () => {
         </div>
       </div>
       <div className="w-full flex items-center justify-center mt-10">
-        <div><Button className="bg-black/[0.9]">View All Courses</Button></div>
+        <div><Button className="bg-black/[0.9] hover:scale-95 transition-all duration-200 ease-out">View All Courses</Button></div>
       </div>
     </div>
   );
