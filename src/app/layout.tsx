@@ -16,9 +16,11 @@ export default function RootLayout({
   children: React.ReactNode; // specifying that only React Element/Node comes , nothing else
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={inter.className}>
-        <Navbar/>
+        <div className="">
+          <Navbar/>
+        </div>
         {children}</body>
     </html>
   );
