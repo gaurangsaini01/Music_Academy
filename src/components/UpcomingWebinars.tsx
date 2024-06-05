@@ -1,6 +1,5 @@
 "use client";
 import { HoverEffect } from "./ui/card-hover-effect";
-import Link from "next/link";
 import { Button } from "./ui/moving-border";
 
 interface Webinar {
